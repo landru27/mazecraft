@@ -24,10 +24,12 @@
 
     { "glyph": "B",    "type": "block",  "name": "foot of bed, head west",    "id":  26, "data":  1 },
     { "glyph": "b",    "type": "block",  "name": "head of bed, head west",    "id":  26, "data":  9 },
-    { "glyph": "D",    "type": "block",  "name": "spruce door, bottom",       "id":  71, "data":  3 },
-    { "glyph": "d",    "type": "block",  "name": "spruce door, top",          "id":  71, "data":  8 },
     { "glyph": "@",    "type": "block",  "name": "trapdoor on top, west",     "id":  96, "data": 11 },
     { "glyph": "!",    "type": "block",  "name": "iron bars",                 "id": 101, "data":  0 },
+    { "glyph": "D",    "type": "block",  "name": "iron door, bottom",         "id":  71, "data":  3 },
+    { "glyph": "d",    "type": "block",  "name": "iron door, top",            "id":  71, "data":  8 },
+    { "glyph": ">",    "type": "block",  "name": "stone button, south face",  "id":  77, "data":  3 },
+    { "glyph": "<",    "type": "block",  "name": "stone button, north face",  "id":  77, "data":  4 },
 
     { "glyph": "C",    "type": "block",  "name": "chest",                     "id":  54, "data":  3, "base": {
         "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 6, "Data": [
@@ -47,6 +49,50 @@
           { "Type": 8, "List": 0, "Name": "Text1", "Size": 11, "Data": "{\"text\":\"\"}" },
           { "Type": 8, "List": 0, "Name": "Text2", "Size": 19, "Data": "{\"text\":\"just the\"}" },
           { "Type": 8, "List": 0, "Name": "Text3", "Size": 21, "Data": "{\"text\":\"beginning!\"}" },
+          { "Type": 8, "List": 0, "Name": "Text4", "Size": 11, "Data": "{\"text\":\"\"}" } ] } },
+
+    { "glyph": "2",    "type": "block",  "name": "wall_sign",                 "id":  68, "data":  2, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 8, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 15, "Data": "minecraft:sign" },
+          { "Type": 3, "List": 0, "Name": "x", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "y", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "z", "Size": 0, "Data": 0 },
+          { "Type": 8, "List": 0, "Name": "Text1", "Size": 11, "Data": "{\"text\":\"\"}" },
+          { "Type": 8, "List": 0, "Name": "Text2", "Size": 20, "Data": "{\"text\":\"find some\"}" },
+          { "Type": 8, "List": 0, "Name": "Text3", "Size": 16, "Data": "{\"text\":\"cover\"}" },
+          { "Type": 8, "List": 0, "Name": "Text4", "Size": 11, "Data": "{\"text\":\"\"}" } ] } },
+
+    { "glyph": "3",    "type": "block",  "name": "wall_sign",                 "id":  68, "data":  3, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 8, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 15, "Data": "minecraft:sign" },
+          { "Type": 3, "List": 0, "Name": "x", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "y", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "z", "Size": 0, "Data": 0 },
+          { "Type": 8, "List": 0, "Name": "Text1", "Size": 12, "Data": "{\"text\":\"a\"}" },
+          { "Type": 8, "List": 0, "Name": "Text2", "Size": 19, "Data": "{\"text\":\"fighting\"}" },
+          { "Type": 8, "List": 0, "Name": "Text3", "Size": 17, "Data": "{\"text\":\"chance\"}" },
+          { "Type": 8, "List": 0, "Name": "Text4", "Size": 11, "Data": "{\"text\":\"\"}" } ] } },
+
+    { "glyph": "4",    "type": "block",  "name": "wall_sign",                 "id":  68, "data":  5, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 8, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 15, "Data": "minecraft:sign" },
+          { "Type": 3, "List": 0, "Name": "x", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "y", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "z", "Size": 0, "Data": 0 },
+          { "Type": 8, "List": 0, "Name": "Text1", "Size": 11, "Data": "{\"text\":\"\"}" },
+          { "Type": 8, "List": 0, "Name": "Text2", "Size": 19, "Data": "{\"text\":\"dead end\"}" },
+          { "Type": 8, "List": 0, "Name": "Text3", "Size": 11, "Data": "{\"text\":\"\"}" },
+          { "Type": 8, "List": 0, "Name": "Text4", "Size": 11, "Data": "{\"text\":\"\"}" } ] } },
+
+    { "glyph": "5",    "type": "block",  "name": "wall_sign",                 "id":  68, "data":  2, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 8, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 15, "Data": "minecraft:sign" },
+          { "Type": 3, "List": 0, "Name": "x", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "y", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "z", "Size": 0, "Data": 0 },
+          { "Type": 8, "List": 0, "Name": "Text1", "Size": 11, "Data": "{\"text\":\"\"}" },
+          { "Type": 8, "List": 0, "Name": "Text2", "Size": 24, "Data": "{\"text\":\"at long last!\"}" },
+          { "Type": 8, "List": 0, "Name": "Text3", "Size": 11, "Data": "{\"text\":\"\"}" },
           { "Type": 8, "List": 0, "Name": "Text4", "Size": 11, "Data": "{\"text\":\"\"}" } ] } },
 
     { "glyph": "PLKo", "type": "item",   "name": "planks",                    "id":   5, "data":  0 },
@@ -79,6 +125,8 @@
     { "glyph": "SHLD", "type": "item",   "name": "shield",                    "id": 442, "data":  0 },
 
     { "glyph": "TRCH", "type": "item",   "name": "torch",                     "id":  50, "data":  0 },
+    { "glyph": "BONE", "type": "item",   "name": "bone",                      "id": 352, "data":  0 },
+    { "glyph": "SKUL", "type": "item",   "name": "skull",                     "id": 397, "data":  0 },
 
     { "glyph": "BTTL", "type": "item",   "name": "glass_bottle",              "id": 374, "data":  0 },
 
@@ -120,6 +168,8 @@
           { "Type": 2, "List": 0, "Name": "Damage", "Size": 0, "Data": 0 },
           { "Type": 10, "List": 0, "Name": "tag", "Size": 1, "Data": [
             { "Type": 8, "List": 0, "Name": "Potion", "Size": 24, "Data": "minecraft:strong_healing" } ] } ] } },
+
+    { "glyph": "k",    "type": "entity", "name": "chicken",                   "id":   0, "data":  0 },
 
     { "glyph": "I",    "type": "entity", "name": "armor_stand",               "id":   0, "data":  0 },
 
