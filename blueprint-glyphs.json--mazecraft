@@ -1,0 +1,129 @@
+{
+  "Glyphs": [
+    { "glyph": "X",    "type": "block",  "name": "null",                      "id":   0, "data":  0 },
+
+    { "glyph": ".",    "type": "block",  "name": "air",                       "id":   0, "data":  0 },
+    { "glyph": "~",    "type": "block",  "name": "water",                     "id":   9, "data":  0 },
+
+    { "glyph": "#",    "type": "block",  "name": "stone bricks",              "id":  98, "data":  0 },
+
+    { "glyph": "=",    "type": "block",  "name": "stone fence",               "id": 139, "data":  0 },
+    { "glyph": "-",    "type": "block",  "name": "spruce fence",              "id": 188, "data":  0 },
+
+    { "glyph": "S",    "type": "block",  "name": "stone",                     "id":   1, "data":  0 },
+    { "glyph": "A",    "type": "block",  "name": "andesite",                  "id":   1, "data":  5 },
+    { "glyph": "a",    "type": "block",  "name": "polished andesite",         "id":   1, "data":  6 },
+    { "glyph": "R",    "type": "block",  "name": "diorite",                   "id":   1, "data":  3 },
+    { "glyph": "r",    "type": "block",  "name": "polished diorite",          "id":   1, "data":  4 },
+    { "glyph": "G",    "type": "block",  "name": "granite",                   "id":   1, "data":  1 },
+    { "glyph": "g",    "type": "block",  "name": "polished granite",          "id":   1, "data":  2 },
+    { "glyph": "O",    "type": "block",  "name": "obsidian",                  "id":  49, "data":  0 },
+    { "glyph": "^",    "type": "block",  "name": "bedrock",                   "id":   7, "data":  0 },
+    { "glyph": "]",    "type": "block",  "name": "cobblestone",               "id":   4, "data":  0 },
+    { "glyph": "}",    "type": "block",  "name": "mossy cobblestone",         "id":  48, "data":  0 },
+
+    { "glyph": "B",    "type": "block",  "name": "foot of bed, head west",    "id":  26, "data":  1 },
+    { "glyph": "b",    "type": "block",  "name": "head of bed, head west",    "id":  26, "data":  9 },
+    { "glyph": "D",    "type": "block",  "name": "spruce door, bottom",       "id":  71, "data":  3 },
+    { "glyph": "d",    "type": "block",  "name": "spruce door, top",          "id":  71, "data":  8 },
+    { "glyph": "@",    "type": "block",  "name": "trapdoor on top, west",     "id":  96, "data": 11 },
+    { "glyph": "!",    "type": "block",  "name": "iron bars",                 "id": 101, "data":  0 },
+
+    { "glyph": "C",    "type": "block",  "name": "chest",                     "id":  54, "data":  3, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 6, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 15, "Data": "minecraft:chest" },
+          { "Type": 3, "List": 0, "Name": "x", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "y", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "z", "Size": 0, "Data": 0 },
+          { "Type": 9, "List": 0, "Name": "Items", "Size": 0, "Data": [] },
+          { "Type": 8, "List": 0, "Name": "Lock", "Size": 0, "Data": "" } ] } },
+
+    { "glyph": "1",    "type": "block",  "name": "wall_sign",                 "id":  68, "data":  3, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 8, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 15, "Data": "minecraft:sign" },
+          { "Type": 3, "List": 0, "Name": "x", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "y", "Size": 0, "Data": 0 },
+          { "Type": 3, "List": 0, "Name": "z", "Size": 0, "Data": 0 },
+          { "Type": 8, "List": 0, "Name": "Text1", "Size": 11, "Data": "{\"text\":\"\"}" },
+          { "Type": 8, "List": 0, "Name": "Text2", "Size": 19, "Data": "{\"text\":\"just the\"}" },
+          { "Type": 8, "List": 0, "Name": "Text3", "Size": 21, "Data": "{\"text\":\"beginning!\"}" },
+          { "Type": 8, "List": 0, "Name": "Text4", "Size": 11, "Data": "{\"text\":\"\"}" } ] } },
+
+    { "glyph": "PLKo", "type": "item",   "name": "planks",                    "id":   5, "data":  0 },
+    { "glyph": "STPo", "type": "item",   "name": "oak_stairs",                "id":  53, "data":  0 },
+
+    { "glyph": "SEDw", "type": "item",   "name": "wheat_seeds",               "id": 295, "data":  0 },
+    { "glyph": "MELN", "type": "item",   "name": "melon",                     "id": 360, "data":  0 },
+    { "glyph": "CRRT", "type": "item",   "name": "carrot",                    "id": 391, "data":  0 },
+    { "glyph": "POTA", "type": "item",   "name": "potato",                    "id": 392, "data":  0 },
+    { "glyph": "APPL", "type": "item",   "name": "apple",                     "id": 260, "data":  0 },
+
+    { "glyph": "BRED", "type": "item",   "name": "bread",                     "id": 297, "data":  0 },
+    { "glyph": "MTTN", "type": "item",   "name": "cooked_mutton",             "id": 424, "data":  0 },
+    { "glyph": "BEEF", "type": "item",   "name": "cooked_beef",               "id": 364, "data":  0 },
+    { "glyph": "CHNK", "type": "item",   "name": "cooked_chicken",            "id": 366, "data":  0 },
+    { "glyph": "PORK", "type": "item",   "name": "cooked_porkchop",           "id": 320, "data":  0 },
+    { "glyph": "FISH", "type": "item",   "name": "cooked_fish",               "id": 350, "data":  0 },
+    { "glyph": "SALM", "type": "item",   "name": "cooked_salmon",             "id": 350, "data":  1 },
+
+    { "glyph": "FLNT", "type": "item",   "name": "flint",                     "id": 318, "data":  0 },
+    { "glyph": "COAL", "type": "item",   "name": "coal",                      "id": 263, "data":  0 },
+
+    { "glyph": "SWRD", "type": "item",   "name": "iron_sword",                "id": 267, "data":  0 },
+    { "glyph": "LBOW", "type": "item",   "name": "bow",                       "id": 261, "data":  0 },
+    { "glyph": "ARRW", "type": "item",   "name": "arrow",                     "id": 262, "data":  0 },
+    { "glyph": "HELM", "type": "item",   "name": "iron_helmet",               "id": 306, "data":  0 },
+    { "glyph": "CPLT", "type": "item",   "name": "iron_chestplate",           "id": 307, "data":  0 },
+    { "glyph": "LEGG", "type": "item",   "name": "iron_leggings",             "id": 308, "data":  0 },
+    { "glyph": "BOOT", "type": "item",   "name": "leather_boots",             "id": 301, "data":  0 },
+    { "glyph": "SHLD", "type": "item",   "name": "shield",                    "id": 442, "data":  0 },
+
+    { "glyph": "TRCH", "type": "item",   "name": "torch",                     "id":  50, "data":  0 },
+
+    { "glyph": "BTTL", "type": "item",   "name": "glass_bottle",              "id": 374, "data":  0 },
+
+    { "glyph": "ITMa", "type": "item",   "name": "pickaxe_silktouch",         "id":   0, "data":  0, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 5, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 25, "Data": "minecraft:diamond_pickaxe" },
+          { "Type": 1, "List": 0, "Name": "Slot", "Size": 0, "Data": 0 },
+          { "Type": 1, "List": 0, "Name": "Count", "Size": 0, "Data": 1 },
+          { "Type": 2, "List": 0, "Name": "Damage", "Size": 0, "Data": 8192 },
+          { "Type": 10, "List": 0, "Name": "tag", "Size": 1, "Data": [
+            { "Type": 9, "List": 10, "Name": "ench", "Size": 1, "Data": [
+              { "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 2, "Data": [
+                { "Type": 2, "List": 0, "Name": "lvl", "Size": 0, "Data": 1 },
+                { "Type": 2, "List": 0, "Name": "id", "Size": 0, "Data": 33 } ] } ] } ] } ] } },
+
+    { "glyph": "ITMc", "type": "item",   "name": "crimson_bow",               "id":   0, "data":  0, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 5, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 13, "Data": "minecraft:bow" },
+          { "Type": 1, "List": 0, "Name": "Slot", "Size": 0, "Data": 0 },
+          { "Type": 1, "List": 0, "Name": "Count", "Size": 0, "Data": 1 },
+          { "Type": 2, "List": 0, "Name": "Damage", "Size": 0, "Data": 32 },
+          { "Type": 10, "List": 0, "Name": "tag", "Size": 1, "Data": [
+            { "Type": 9, "List": 10, "Name": "ench", "Size": 3, "Data": [
+              { "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 2, "Data": [
+                { "Type": 2, "List": 0, "Name": "lvl", "Size": 0, "Data": 5 },
+                { "Type": 2, "List": 0, "Name": "id", "Size": 0, "Data": 48 } ] },
+              { "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 2, "Data": [
+                { "Type": 2, "List": 0, "Name": "lvl", "Size": 0, "Data": 1 },
+                { "Type": 2, "List": 0, "Name": "id", "Size": 0, "Data": 50 } ] },
+              { "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 2, "Data": [
+                { "Type": 2, "List": 0, "Name": "lvl", "Size": 0, "Data": 1 },
+                { "Type": 2, "List": 0, "Name": "id", "Size": 0, "Data": 51 } ] } ] } ] } ] } },
+
+    { "glyph": "PTNh", "type": "item",   "name": "potion_healing",            "id":   0, "data":  0, "base": {
+        "Type": 10, "List": 0, "Name": "LISTELEM", "Size": 5, "Data": [
+          { "Type": 8, "List": 0, "Name": "id", "Size": 16, "Data": "minecraft:potion" },
+          { "Type": 1, "List": 0, "Name": "Slot", "Size": 0, "Data": 0 },
+          { "Type": 1, "List": 0, "Name": "Count", "Size": 0, "Data": 1 },
+          { "Type": 2, "List": 0, "Name": "Damage", "Size": 0, "Data": 0 },
+          { "Type": 10, "List": 0, "Name": "tag", "Size": 1, "Data": [
+            { "Type": 8, "List": 0, "Name": "Potion", "Size": 24, "Data": "minecraft:strong_healing" } ] } ] } },
+
+    { "glyph": "I",    "type": "entity", "name": "armor_stand",               "id":   0, "data":  0 },
+
+    { "glyph": "E",    "type": "entity", "name": "use_glyph_tag",             "id":   0, "data":  0 },
+    { "glyph": "NTTY", "type": "entity", "name": "define_glyph_tag",          "id":   0, "data":  0 }
+  ]
+}
